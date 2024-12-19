@@ -1,10 +1,7 @@
 name: Weekly LINE Notify Message Test
 
 on:
-  schedule:
-    - cron: '*/4 * * * *'  # Runs every 1 minute
-    # Runs every Wednesday at 1 AM UTC (which is 9 AM Taipei time)
-    # - cron: '0 1 * * 3'  # This is 9 AM Taipei (UTC+8) time, converted to 1 AM UTC time
+  workflow_dispatch:
 
 jobs:
   send-message:
