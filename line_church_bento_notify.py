@@ -4,8 +4,7 @@ import os
 
 
 # Define your LINE Notify token
-ACCESS_TOKEN = "MlqyxqdjH20tfLOAOCNclnn5f7T8BT50MePKugDvVnW"
-# os.getenv("ACCESS_TOKEN")
+ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 LINE_NOTIFY_API = "https://notify-api.line.me/api/notify"
 
 today = datetime.now()
