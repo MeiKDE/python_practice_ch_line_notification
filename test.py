@@ -4,11 +4,10 @@ import os
 
 
 # Define your LINE Notify token
-ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+ACCESS_TOKEN = "XlmdyvYZIsgeLhJMZ3xbU94DIqOnCgHxOdIUQ0b70ao"
 LINE_NOTIFY_API = "https://notify-api.line.me/api/notify"
 
 today = datetime.now()
-
 # Add 4 days
 sunday_time = today + timedelta(days=4)
 
